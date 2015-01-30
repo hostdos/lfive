@@ -9,4 +9,17 @@ class PagesController extends Controller {
 
 	//
 
+    public function about()
+    {
+
+        $first = 'Dominique';
+        $last = 'Hostettler';
+
+
+        return view('pages.about')->with(compact('first','last'));
+
+
+
+    }
+
 }

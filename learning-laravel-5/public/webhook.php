@@ -21,7 +21,7 @@ $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:hostdos/lfive.git";
 $BRANCH             = "master";
 
-if ( $_POST['payload'] ) {
+if (!$_POST['payload'] ) {
   // Only respond to POST requests from Github
 
   if( file_exists($LOCAL_REPO) ) {

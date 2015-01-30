@@ -1,14 +1,13 @@
-<!doctype html>
-<html lang="en">
+@extends('app');
 
-<head>
-    <meta charset="utf-8">
+@section('content');
 
-    <title>Document</title>
-
-</head>
-<body>
 <h1>Webhook testing Again this time with Git but honk on post!</h1>
-</body>
 
-</html>
+@stop
+
+@section('footer');
+
+<script>alert('hello')</script>
+
+@stop

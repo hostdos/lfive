@@ -1,3 +1,7 @@
 composer.lock
 /vendor
 /learning-larave-5/bootstrap/compiled.php
+/learning-laravel-5/db
+/learning-laravel-5/laravel.db
+/learning-laravel-5/main
+/learning-laravel-5/config/database.php

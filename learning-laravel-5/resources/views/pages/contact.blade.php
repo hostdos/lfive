@@ -1,12 +1,12 @@
-@extends('app');
+@extends('app')
 
-@section('content');
+@section('content')
 
 <h1>Webhook testing Again this time with Git but honk on post!</h1>
 
 @stop
 
-@section('footer');
+@section('footer')
 
 <script>alert('hello')</script>
 

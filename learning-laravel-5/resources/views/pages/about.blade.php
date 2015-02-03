@@ -1,6 +1,6 @@
-@extends('app');
+@extends('app')
 
-@section('content');
+@section('content')
 
 
     <h1>About</h1>
